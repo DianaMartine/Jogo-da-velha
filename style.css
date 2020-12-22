@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: antiquewhite;
+}
+
+div#turno {
+    margin: 40px;
+    width: 252px;
+}
+
+p {
+    margin: auto;
+    width: 252px;
+    position: relative;
+    font-size: 15pt;
+}
+
+img {
+    width: 2.3%;
+    position: relative;
+    margin: 5px;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 2px black;
+    background: pink;
+}
+
+div#tabuleiro {
+    margin: auto;
+    margin-top: 40px;
+    width: 252px;
+    height: 252px;
+    box-shadow: 6px 6px 6px black;
+}
+
+div.espaco {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    float: left;
+}
+
+.imgdentro {
+    width: 100%;
+    text-align: center;
+}
+
+div#vencedor {
+    top: 40px;
+}
+
+footer {
+    margin: auto;
+    width: 252px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px black;
+    transition: 1s;
+}
+
+footer:hover {
+    background: pink;
+}
+
+a {
+    opacity: 50%;
+    transition: 1s;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    opacity: 1;
+}
