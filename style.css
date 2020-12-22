@@ -45,6 +45,10 @@ div.espaco {
     text-align: center;
 }
 
+div#vencedor {
+    top: 40px;
+}
+
 footer {
     margin: auto;
     width: 252px;
