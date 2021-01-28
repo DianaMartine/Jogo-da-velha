@@ -72,6 +72,8 @@ function changeSpaces() {
 
 async function whoWins() {
 
+var reset = document.querySelector(".reset").getAttribute("hidden");
+
     var a1 = document.getElementById("a1").getAttribute("jogada");
     var a2 = document.getElementById("a2").getAttribute("jogada");
     var a3 = document.getElementById("a3").getAttribute("jogada");
@@ -101,6 +103,8 @@ async function whoWins() {
     } else if ((a1 != "" && a2 != "" && a3 != "" && b1 != "" && b2 != "" && b3 != "" && c1 != "" && c2 != "" && c3 != "" && wins == "")) {
 
         vencedor.innerHTML = `Deu velha #~#`;
+ 
+        document.querySelector(".reset").style.display = "block";
 
     }
     if (wins != "") {
@@ -110,6 +114,8 @@ async function whoWins() {
         await sleep(50);
 
         vencedor.innerHTML = `O vencedor foi o: ${wins}`;
+
+        document.querySelector(".reset").style.display = "block";
 
     }
 

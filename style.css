@@ -46,13 +46,46 @@ div.espaco {
 }
 
 div#vencedor {
+    margin: auto;
+    display: flex;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
     top: 40px;
+    color: darkviolet;
+    opacity: 1;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+    background: antiquewhite;
+}
+
+div#vencedor:hover {
+    background: pink;
+}
+
+button {
+    margin: auto;
+    width: 120px;
+    margin-top: 8px;
+    box-shadow: 2px 2px 2px black;
+    transition: 1s;
+    background: antiquewhite;
+}
+
+button:hover {
+    background: pink;
+}
+
+button a {
+    color: darkviolet;
+    opacity: 1;
 }
 
 footer {
     margin: auto;
     width: 252px;
-    margin-top: 40px;
+    margin-top: 30px;
     box-shadow: 2px 2px 2px black;
     transition: 1s;
 }
